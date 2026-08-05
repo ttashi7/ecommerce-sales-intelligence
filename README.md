@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![SQL](https://img.shields.io/badge/SQL-DuckDB-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Engineering-purple)
+
 # E-Commerce Sales Intelligence Dashboard
 
 An end-to-end analytics project that transforms ~100,000 raw e-commerce transaction records into an executive-ready Power BI dashboard, covering revenue performance, customer behavior, and operational efficiency for a Brazilian online marketplace.
@@ -33,18 +38,23 @@ The Power BI dashboard is organized into three pages, each built for a different
 
 Key design decisions included building a custom state-name mapping layer to resolve geocoding mismatches on the Brazil shape map, and using DAX-driven color saturation and tooltips to make the operations map interactive and self-explanatory for non-technical viewers.
 
+## Dashboard Preview
+
 ### Executive Overview
 
-![Executive Dashboard](powerbi/dashboard_screenshots/executive_overview.png)
+![Executive Overview](powerbi/dashboard_screenshots/executive_overview.png)
+
+---
 
 ### Customer Analytics
 
 ![Customer Analytics](powerbi/dashboard_screenshots/customer_analytics.png)
 
+---
+
 ### Operations & Performance
 
-![Operations Dashboard](powerbi/dashboard_screenshots/operations_dashboard.png)
----
+![Operations Dashboard](powerbi/dashboard_screenshots/operations_performance.png)
 
 ## Tech Stack and Workflow
 
